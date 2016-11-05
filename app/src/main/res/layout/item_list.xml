@@ -12,6 +12,12 @@
         android:scaleType="centerCrop"
         android:src="@drawable/a" />
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:alpha="0.3"
+        android:background="#424242" />
+
     <TextView
         android:id="@+id/textViewJudul"
         android:layout_width="match_parent"
@@ -25,17 +31,4 @@
         android:maxLines="1"
         android:text="Judul"
         android:textAppearance="@style/TextAppearance.AppCompat.Title" />
-
-    <TextView
-        android:id="@+id/textViewDeskripsi"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textViewJudul"
-        android:layout_alignStart="@+id/textViewJudul"
-        android:layout_below="@+id/textViewJudul"
-        android:ellipsize="end"
-        android:maxLines="2"
-        android:text="Deskripsi"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
-
 </RelativeLayout>
